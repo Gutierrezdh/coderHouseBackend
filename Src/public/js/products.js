@@ -22,9 +22,8 @@ addProductBtn.addEventListener("click", () => {
   };
 
   socket.emit("addProduct", product);
-/*   productManager.addProduct(product); */
 
-  // Restablece los valores de los campos del formulario
+  // Restablezco los valores de los campos del formulario
   document.getElementById("title").value = "";
   document.getElementById("description").value = "";
   document.getElementById("price").value = "";
@@ -34,7 +33,7 @@ addProductBtn.addEventListener("click", () => {
   alert("Producto agregado correctamente");
 });
 socket.on("updateProducts", (products) => {
-    // Recarga la página para reflejar los cambios
+    // Recargo la página para reflejar los cambios
     window.location.reload();
   });
 }
@@ -44,13 +43,12 @@ deleteProductBtn.addEventListener("click", () => {
   const id = document.getElementById("productId").value;
   console.log(id);
   socket.emit("deleteProduct", id);
-/*   productManager.deleteProduct(id); */
   document.getElementById("productId").value = "";
   alert("Producto eliminado");
 });
 
 socket.on("updateProducts", (products) => {
-  // Recarga la página para reflejar los cambios
+  // Recargo la página para reflejar los cambios
   window.location.reload();
 });
 }

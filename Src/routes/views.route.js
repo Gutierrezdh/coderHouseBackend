@@ -1,8 +1,7 @@
 const express = require('express');
 const ProductManager = require('../productManager');
-
 const router = express.Router();
-const productManager = new ProductManager(); // Asegúrate de inicializar el ProductManager correctamente
+const productManager = new ProductManager();
 
 router.get('/', (req, res) => {
   res.render('home', { title: 'Página de Inicio' });
