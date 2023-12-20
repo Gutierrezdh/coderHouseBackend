@@ -32,8 +32,8 @@ class ProductManager {
     }
 
     addProduct(product) {
-        const { title, description, price, code, stock, category, thumbnails } = product;
-        if (!title || !description || !price || !code || !stock || !category) {
+        const { title, description, price, code, stock, thumbnails } = product;
+        if (!title || !description || !price || !code || !stock) {
             console.error('Todos los campos son obligatorios, excepto thumbnails.');
             return;
         }
@@ -52,7 +52,6 @@ class ProductManager {
             price: Number(price),
             status: true,
             stock: Number(stock),
-            category,
             thumbnails: thumbnails || []
         };
 

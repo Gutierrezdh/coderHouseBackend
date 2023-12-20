@@ -1,55 +1,10 @@
 [
   {
-    "id": 1,
-    "title": "Prueba PUT",
-    "description": "Descripción del nuevo producto, despues del PUT",
-    "price": 25.99,
-    "thumbnail": "ruta/imagen1.jpg",
-    "code": "ABC123",
-    "stock": 10
-  },
-  {
-    "id": 3,
-    "title": "Lámpara de escritorio",
-    "description": "Lámpara LED ajustable para trabajar o estudiar",
-    "price": 34.99,
-    "thumbnail": "ruta/imagen3.jpg",
-    "code": "GHI789",
-    "stock": 25
-  },
-  {
-    "id": 4,
-    "title": "Cámara digital",
-    "description": "Cámara compacta con resolución Full HD",
-    "price": 159.99,
-    "thumbnail": "ruta/imagen4.jpg",
-    "code": "JKL321",
-    "stock": 12
-  },
-  {
-    "id": 5,
-    "title": "Libreta de notas",
-    "description": "Libreta con tapa dura y hojas rayadas",
-    "price": 9.99,
-    "thumbnail": "ruta/imagen5.jpg",
-    "code": "MNO654",
-    "stock": 30
-  },
-  {
-    "id": 6,
-    "title": "Botella de agua reutilizable",
-    "description": "Botella ecológica de acero inoxidable, capacidad 500ml",
-    "price": 14.99,
-    "thumbnail": "ruta/imagen6.jpg",
-    "code": "PQR987",
-    "stock": 18
-  },
-  {
     "id": 7,
     "title": "Camisa de algodón",
     "description": "Camisa de manga larga, material suave y transpirable",
     "price": 29.99,
-    "thumbnail": "ruta/imagen1.jpg",
+    "thumbnail": "https://owayo-cdn.com/cdn-cgi/image/format=auto,fit=contain,width=490/newhp/img/productHome/productSeitenansicht/motocross/motocrosstrikot_ml5_pro_langarm/ML5_Pro_Vorderansicht_neu.png",
     "code": "ABC1234",
     "stock": 20
   },
@@ -58,7 +13,7 @@
     "title": "Zapatillas deportivas",
     "description": "Zapatillas cómodas para correr o hacer ejercicio",
     "price": 49.99,
-    "thumbnail": "ruta/imagen2.jpg",
+    "thumbnail": "https://media.revistagq.com/photos/628b732430661bda014902fd/16:9/w_1920,c_limit/GettyImages-1217962871.jpg",
     "code": "DEF4565",
     "stock": 15
   },
@@ -67,7 +22,7 @@
     "title": "Lámpara de escritorio",
     "description": "Lámpara LED ajustable para trabajar o estudiar",
     "price": 34.99,
-    "thumbnail": "ruta/imagen3.jpg",
+    "thumbnail": "https://m.media-amazon.com/images/I/41Pj01TizgL._AC_SL1001_.jpg",
     "code": "GHI7896",
     "stock": 25
   },
@@ -76,7 +31,7 @@
     "title": "Cámara digital",
     "description": "Cámara compacta con resolución Full HD",
     "price": 159.99,
-    "thumbnail": "ruta/imagen4.jpg",
+    "thumbnail": "https://www.fotolandia.com.ar/tienda/223-Niara_large/camara-digital-sony-dsc-w800-20mp.jpg",
     "code": "J3KL321",
     "stock": 12
   },
@@ -85,7 +40,7 @@
     "title": "Libreta de notas",
     "description": "Libreta con tapa dura y hojas rayadas",
     "price": 9.99,
-    "thumbnail": "ruta/imagen5.jpg",
+    "thumbnail": "https://www.officedepot.com.mx/medias/78145.jpg-1200ftw?context=bWFzdGVyfHJvb3R8MTgxNDMxfGltYWdlL2pwZWd8aGZlL2hkOS8xMDA4MDYwMzUzNzQzOC83ODE0NS5qcGdfMTIwMGZ0d3wzZTgzZWZmOTU5MGQzMjhlMWM3MjgxZTI2YThkN2ZjYTUyZmU0NzhhOWRhZjMzNTliNDk5MTlkMTQwMTVkYjAx",
     "code": "MNO6454",
     "stock": 30
   },
@@ -94,19 +49,8 @@
     "title": "Botella de agua reutilizable",
     "description": "Botella ecológica de acero inoxidable, capacidad 500ml",
     "price": 14.99,
-    "thumbnail": "ruta/imagen6.jpg",
+    "thumbnail": "https://m.media-amazon.com/images/I/6120sC8o0iS._AC_SL1500_.jpg",
     "code": "PQR9787",
     "stock": 18
-  },
-  {
-    "id": 13,
-    "title": "Prueba",
-    "description": "Descripción del nuevo producto",
-    "code": "NP001",
-    "price": 19.99,
-    "status": true,
-    "stock": 100,
-    "category": "Electrónicos",
-    "thumbnails": []
   }
 ]
